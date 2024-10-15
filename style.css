@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.edit2 {
+    width: 150px;
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.edit1 {
+    width: 550px;
+    height: 100px;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+.edit3 {
+    background-color: blue;
+    box-sizing: border-box;
+    height: 100px;
+    width: 550px;
+}
+
+.table1 {
+    width: 1000px;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.white {
+    width: 50px;
+}
+
+.table2 .edit2 {
+    width: 100px;
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.table2 .edit1 {
+    height: 100px;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+.table2 .edit3 {
+    background-color: blue;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.table2 .white {
+    width: 50px;
+}
+
+.table2 {
+    margin-top: 40px;
+    width: 100%;
+}
