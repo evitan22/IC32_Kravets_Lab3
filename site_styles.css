@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.right {
+    margin-left: 60px;
+}
+
+.title {
+    font-size: 25px;
+    text-align: left;
+}
+
+.first-price {
+    color: rgb(0, 187, 255);
+    text-decoration-line: line-through;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.second-price {
+    color: red;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 5px 0 0 6px;
+}
+
+.price {
+    display: flex;
+    margin-top: 10px;
+}
+
+.economy {
+    margin-top: 30px;
+    display: flex;
+}
+
+.pig img {
+    width: 35px;
+}
+
+.economy-text {
+    color: green;
+    margin: 11px 0 0 6px;
+}
+
+.time {
+    margin-top: 15px;
+    display: flex;
+}
+
+.clock img {
+    width: 35px;
+}
+
+.time-text {
+    color: orange;
+    opacity: 55%;
+    margin-left: 5px;
+}
+
+.video-zapus {
+    margin-top: 17px;
+    line-height: 22px;
+}
+
+.buy {
+    margin-top: 10px;
+    width: 100%;
+    padding: 17px 0;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.description {
+    display: flex;
+    margin: 20px 0 0 25px;
+    align-items: center;
+}
+
+.small img {
+    width: 35px;
+}
+
+.payments-text {
+    margin-left: 13px;
+}
+
+.towards {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.curses {
+    width: 1000px;
+    margin: 20px auto 0;
+    display: flex;
+    gap: 50px;
+}
+
+.curse-text {
+    color: gray;
+    opacity: 70%;
+    margin-top: 10px
+}
+
+.prices {
+    margin-top: 10px;
+    display: flex;
+}
+
+.curse-first-price {
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+
+.curse-second-price {
+    color: blue;
+    margin-left: 7px;
+    opacity: 70%;
+}
+
+.curse-third-price {
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 7px;
+}
+
+.curse {
+    width: calc((100% - 150px)/4);
+}
+
+.curse img {
+    height: 250px;
+    min-width: 100%;
+}
+
+.edit-image {
+    width: 100%;
+    overflow: hidden;
+}
