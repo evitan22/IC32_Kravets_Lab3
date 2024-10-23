@@ -5,7 +5,8 @@ body {
 .parent {
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -96,16 +97,12 @@ body {
     margin-left: 13px;
 }
 
-.towards {
-    width: 1000px;
-    margin: 0 auto;
-}
-
 .curses {
-    width: 1000px;
+    width: 100%;
     margin: 20px auto 0;
     display: flex;
     gap: 50px;
+    max-width: 1000px;
 }
 
 .curse-text {
@@ -157,10 +154,11 @@ body {
 }
 
 .options {
-    width: 1000px;
+    width: 100%;
     margin: 50px auto 0;
     display: flex;
     gap: 50px;
+    max-width: 1000px;
 }
 
 .option {
@@ -218,6 +216,11 @@ body {
 
 .main-image {
     position: relative;
+    width: 50%;
+}
+
+.main-image img {
+    max-width: 500px;
 }
 
 .action {
@@ -274,4 +277,46 @@ body {
     font-size: 14px;
     margin: 5px 0 0 5px;
     text-align: center;
+}
+
+.towards {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .parent {
+        flex-direction: column;
+    }
+    .main-image {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .main-image img {
+        width: 100%;
+    }
+    .right {
+        text-align: center;
+        margin: 15px 0 0;
+    }
+    .title {
+        text-align: center;
+    }
+    .curse {
+        width: calc((100% - 50px) / 2);
+    }
+    .curses {
+        flex-wrap: wrap;
+    }
+    .towards {
+        margin-top: 15px;
+    }
+    .options {
+        flex-wrap: wrap;
+    }
+    
+    .option {
+        width: calc((100% - 50px)/2);
+    }
 }
