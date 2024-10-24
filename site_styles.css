@@ -305,18 +305,57 @@ body {
     }
     .curse {
         width: calc((100% - 50px) / 2);
+        text-align: center;
     }
     .curses {
         flex-wrap: wrap;
     }
     .towards {
         margin-top: 15px;
+        text-align: center;
     }
     .options {
         flex-wrap: wrap;
     }
-    
     .option {
         width: calc((100% - 50px)/2);
+    }
+    .economy {
+        margin-top: 5px;
+    }
+    .price {
+        margin-top: 20px;
+    }
+    .prices {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .curse {
+        width: 60%;
+        text-align: center;
+    }
+    .curses {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .curse .prices {
+        justify-content: center;
+    }
+    .towards {
+        text-align: center;
+    }
+    .title2 {
+        margin: 30px 0 0 40px;
+    }
+    .partners-images {
+        justify-content: center;
+    }
+    .economy {
+        margin-top: 5px;
+    }
+    .price {
+        margin-top: 20px;
     }
 }
